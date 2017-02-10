@@ -15,5 +15,10 @@
 1. Sped up API calls with Asynchronous calls using Task.async and Task.await
 Compare these two screenshots of time on the search controller before & after.
 BEFORE
-
+![Before Async](api_calls_before.png)
 AFTER
+![After Async](api_calls_after.png)
+
+2. Benchmarked Sort algorithms & picked fastest
+Used this website to compare different sort methods.https://www.toptal.com/developers/sorting-algorithms/nearly-sorted-initial-order  Decided to test the following 3 sort methods on how fast they sorted: Insert, Shell, Bubble. I picked Insert after reviewing 3 benchmark test pictured below.
+![Sort benchmarks](sort_benchmark.png)
