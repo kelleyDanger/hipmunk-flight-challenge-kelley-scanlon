@@ -10,3 +10,10 @@
 5. Retrieve all provider flights sorted by agony at url `http://localhost:8000/flights/search`
 
 **NOTE:** Elixir was choosen because it can be easily optimized to quickly handle multiple requests. For example, this server could be optimized to asynchronously make API requests to each provider and concat once all responses have returned.
+
+## UPDATE
+1. Sped up API calls with Asynchronous calls using Task.async and Task.await
+Compare these two screenshots of time on the search controller before & after.
+BEFORE
+
+AFTER
